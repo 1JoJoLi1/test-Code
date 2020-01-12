@@ -1,4 +1,4 @@
-
+<!--HTML 基础入门-->
 <!--在html中，包括head与body部分
     均为双标签，结尾时，加上一个/    -->
 
@@ -12,32 +12,47 @@
             8848NB手机
         </title><!--定义页面标题-->
         
+
         <style>
             .p1{
                 color:red;
+                background-color: rgb(20,200,200);
             }
             .p2{
                 color:rgba(20,22,22,.6);
+                background-color: rgb(100,0,0);
             }
             .p3{
                 color:rgb(255,0,0);
+                background-color: rgb(100,0,0);
             }
             .p4{
                 color:#FF0000;
+                background-color: rgb(100,0,0);
+            }
+            .top{
+                height:500px;
+                background-color:rgb(20,90,120);
             }
             .topofleft{
-
+                width:20%;
+                background-color: rgb(150,20,200);
+                float:left;
             }
             .topofright{
-
+                width:60%;
+                
+                float:left;
             }
             .content{
-            
+                height:500px;
+                background-color: rgb(200,100,20);
             }
             .footer{
-
+                height:50px;
+                background-color: rgb(100,0,0);
             }
-        </style>
+        </style><!-- 属性-->
 
     </head>
 
@@ -56,6 +71,7 @@
         <p class="p2"> hit man</p>
         <p class="p3"> ddddddddd</p>
         <p class="p4"> mmmmmmmmmm</p>
+
         <!--布局标签,可多层嵌套-->
         <div class="top"> 
             <div class="topofleft"> YES</div>
@@ -66,6 +82,21 @@
         
         <div class="footer"> 一把</div>
 
+        <!--图像-->
+        <img src="./111.png" width="300px">
+
+        <!--超链接-->
+        <a href="https://www.baidu.com/">
+            <img src="111.png" width="1000px">
+        </a>
+
+        <a href="https://www.baidu.com/">laiba</a>
+
+        <a href="https://www.baidu.com/" target="_blank">niwanle</a>
+
+        <a href="https://www.baidu.com/" target="_blank">
+            <img src="111.png" width="20px">
+        </a>
     </body>
 </html><!--定义html页面开始部分-->
 
